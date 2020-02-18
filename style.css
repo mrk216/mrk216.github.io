@@ -1,0 +1,337 @@
+html {
+  overflow-x: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#heading.container-fluid {
+  padding: 0;
+  background: url(images/banner.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+header {
+  height: 140px;
+  background: rgba(19, 31, 27, 0.8);
+  color: #f2b833;
+  font-size: 12px;
+}
+
+nav.nav-search {
+  height: 100px;
+  margin: auto;
+  padding: 15px 0 15px 0;
+}
+
+nav.menu {
+  height: 40px;
+  background-color: #13251b !important;
+}
+
+.logo > img {
+  width: 35%;
+}
+
+.search,
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.search > .input-group {
+  width: 90%;
+}
+.login {
+  margin-left: -28px;
+}
+
+.search-icon {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.icons {
+  width: 20px;
+  height: 20px;
+  margin: 1px 15px 0 15px;
+}
+
+.link-icon {
+  margin: 0;
+  width: 20px;
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav-item > a {
+  color: #f2b833;
+}
+
+.bigger-icon {
+  margin-top: -10px;
+  display: flex;
+  width: 45px;
+}
+
+#main {
+  padding-top: 50px;
+}
+
+#main.row {
+  margin: 25px;
+}
+
+.main-content {
+  margin: 50px 0;
+  font-size: 14px;
+}
+
+.img-wrapper {
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.img-main {
+  width: 310px;
+  border: solid 8px;
+  border-radius: 15px;
+}
+
+.link-wrapper {
+  border-bottom: solid 3px #f1b733;
+  margin: 0 5px;
+  padding-bottom: 8px;
+}
+
+.links-row {
+  font-size: 16px;
+  justify-content: center;
+}
+
+.description {
+  font-size: 18px;
+}
+
+.nav-vg {
+  color: #13251b !important;
+}
+
+.btn-subscribe {
+  background-color: #13251b;
+  color: #f2b833;
+  border: solid 3px gray;
+}
+
+.btn-addtocart {
+  color: #f1b733;
+  font-size: 14px;
+  width: 150px;
+  height: 40px;
+}
+
+.btn-foil {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #175d34;
+}
+
+.price {
+  font-size: 27px;
+  display: block;
+  text-align: right;
+  padding: inherit;
+}
+
+.row-tabs {
+  margin-top: 10px;
+}
+
+.nav-tabs .nav-link {
+  border-radius: 0;
+}
+
+.tab-pane {
+  padding: 15px;
+  border: solid 1px #e5e5e5;
+  border-top: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.btn-sell {
+  margin: 15px 0;
+}
+
+.icons-grp > .row > .col-sm,
+.icons-grp > .row > .col-2dot4 {
+  border: solid 1px grey;
+  margin: 3px;
+  height: 45px;
+  padding: 5px 5px 5px 10px;
+}
+
+.icons-grp > .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.no-margin {
+  margin-left: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.content {
+  margin: inherit;
+}
+
+.title-icon {
+  margin: 0 0 5px 0;
+  /* padding-top: 5px; */
+}
+
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+table {
+  border-spacing: 3px;
+  border-collapse: separate;
+  width: -webkit-fill-available;
+}
+
+th {
+  font-weight: normal;
+  line-height: 30px;
+}
+
+td {
+  border: solid 1px black;
+  margin: 3px;
+  line-height: 45px;
+  padding: 5px 10px;
+}
+
+.items {
+  margin: 50px 0;
+}
+
+.items > div > .item-details > span {
+  text-align: center;
+}
+
+.center-title {
+  justify-content: center;
+}
+
+.label,
+.label-bigger,
+.label-price {
+  display: block;
+}
+
+.label {
+  font-size: 10px;
+}
+
+.label-bigger {
+  font-size: 14px;
+}
+
+.label-price {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.items-section {
+  margin-top: 50px;
+}
+
+.loots-section {
+  background-color: #13251b;
+  height: 350px;
+  padding: 50px;
+  color: white;
+}
+
+.loots-section > .center-title {
+  margin-bottom: 30px;
+}
+
+.loots-section > .description {
+  text-align: center;
+  font-weight: lighter;
+  margin: 45px;
+}
+
+.subscribe {
+  width: 50%;
+  justify-content: center;
+}
+
+.subscribe > input {
+  margin: 0 10px;
+}
+
+.links-section {
+  height: 330px;
+  display: block;
+  position: relative;
+  padding: 50px;
+  color: white;
+}
+
+.links-section::after {
+  content: "";
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/links-bg.jpg") center center;
+  background-size: cover;
+  /* background: url("images/links-bg.jpg"); */
+  background-position: center;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.link-items > li {
+  list-style-type: none;
+}
+
+.link-items > .title {
+  color: #f1b733;
+  margin: 15px 0;
+  text-transform: capitalize;
+}
+
+footer {
+  height: 50px;
+  padding: 20px;
+  background-color: #13251b;
+  color: white;
+  font-size: 10px;
+}
